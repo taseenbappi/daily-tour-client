@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import './Navigation.css';
 
 const Navigation = () => {
     return (
@@ -15,12 +16,12 @@ const Navigation = () => {
 
                     </Nav>
                     <Nav>
-
                         <Nav.Link >Taseen Bappi</Nav.Link>
-                        <Nav.Link href="#deets"><img src='./logo.svg' alt="" /></Nav.Link>
 
+                        {/* <Nav.Link href="#deets"><img src='./logo.svg' alt="" /></Nav.Link> */}
 
                     </Nav>
+                    <Nav.Link ><button className='login-btn'>Login</button></Nav.Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

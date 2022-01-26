@@ -1,0 +1,14 @@
+.login-btn{
+    font-family: 'Poppins', sans-serif; 
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #a323ec;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 10px 0;
+    transition: 0.5s;
+}
