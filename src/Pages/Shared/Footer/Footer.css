@@ -1,0 +1,25 @@
+.footer{
+    background: linear-gradient(183.41deg, #000a0f -8.57%, #0d131d 82.96%);
+}
+.footer-company-details{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+
+}
+.footer-company-list li{
+    list-style: none;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 1rem;
+
+}
