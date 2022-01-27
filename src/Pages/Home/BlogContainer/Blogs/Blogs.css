@@ -1,0 +1,31 @@
+.blog-card{
+    border-radius: 2%;
+    box-shadow: 0 0 50px #ccc;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    cursor: pointer;
+    
+}
+
+.blog-card img{
+    border-radius: 1.25rem;
+    
+}
+
+.blog-title{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(5, 1, 15);
+}
+
+.blog-text{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(85, 85, 85);
+}

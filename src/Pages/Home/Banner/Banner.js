@@ -2,10 +2,11 @@ import React from 'react';
 import img1 from "../../../images/carousel/img-1.jpg";
 import img2 from "../../../images/carousel/img-2.jpg";
 import img3 from "../../../images/carousel/img-3.jpg";
+import './Banner.css';
 
 const Banner = () => {
     return (
-        <div id="banner" className="carousel slide carousel-fade container-fluid p-0 h-75" data-bs-ride="carousel">
+        <div id="banner" className="carousel slide carousel-fade container-fluid p-0 " data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={img1} className="d-block w-100 img-fluid " alt="..." />
